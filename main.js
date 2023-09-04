@@ -1,26 +1,14 @@
 /*
 
-1. starta spela och timer.
-
-2. Är alla rutor vända?
-	IFALL true:
-		- Stoppa timer.
-		- Lägg till score i en array.	
-	IFALL false:
-		-gå till nästa steg.
-
-3. Be användare klicka på två rutor.
-
-4. 	IFALL klickad ruta 1 är == klickad ruta 2:
+IFALL klickad ruta 1 är == klickad ruta 2:
 		
-		- låt rutorna fortfarande vara vända.
-		- Lägg till poäng på score. score += 10;
-		- Gå tillbaka till steg 2.
+	- låt rutorna fortfarande vara vända.
 	
 	ANNARS :
-    - Lägg till 1 på hur många "fel" du haft fel += 1	
-		- vänd tillbaka rutorna.
-		- Gå tillbaka till steg 2.
+		vänd tillbaka rutorna.
+
+Score?
+Time?
 
 */
 const imgArr = ['./assets/everest.png', 
